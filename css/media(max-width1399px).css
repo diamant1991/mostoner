@@ -1,0 +1,237 @@
+@media (max-width: 1399px) {
+  .logo img {
+    width: 70%;
+  }
+  .nav,
+  .feedback,
+  .search-block input,
+  .search-block button,
+  .gar {
+    font-size: 1vw;
+  }
+  .search-block button {
+    width: 6.45vw;
+  }
+  .nav .second-level a {
+    font-size: 1.1vw;
+    padding: 1vw 2vw;
+  }
+  .telephone {
+    font-size: 1.1vw;
+  }
+  .telephone p:before {
+    width: 1.22vw;
+    height: 1.22vw;
+    background-size: cover;
+  }
+  .telephone p,
+  .feedback p {
+    padding-left: 2vw;
+  }
+  .feedback p:before {
+    width: 1.366vw;
+    height: 0.935vw;
+    background-size: cover;
+  }
+  .gar div {
+    width: 12.89vw;
+  }
+  .gar img {
+    width: 2.55vw;
+    height: 2.55vw;
+  }
+  .side-form input[type="text"] {
+    font-size: 1.1vw;
+    height: 3vw;
+  }
+  .side-form textarea {
+    font-size: 1.1vw;
+    height: 5.5vw;
+  }
+  .side-form input[type="submit"] {
+    font-size: 1vw;
+    height: 2.5vw;
+  }
+  .basket {
+    font-size: 1.4vw;
+  }
+  .basket-icon {
+    width: 1.45vw;
+    height: 1.45vw;
+    background-size: cover;
+  }
+  .banner-text .title {
+    font-size: 3.25vw;
+    width: 69vw;
+    height: 11.85vw;
+  }
+  .banner-item {
+    font-size: 1.3vw;
+    width: 16vw;
+    height: 21vw;
+  }
+  .banner-col .procent {
+    font-size: 5.05vw;
+  }
+  .banner-col .procent span {
+    font-size: 3.25vw;
+  }
+  .help .h-text {
+    font-size: 2.05vw;
+  }
+  .help .m-text,
+  .help .more {
+    font-size: 1.15vw;
+  }
+  .brands-item {
+    width: 17.4vw;
+    height: 11.6vw;
+  }
+  .brands-item img {
+    width: 45%;
+  }
+  .brands-item img.hp {
+    width: 31%;
+  }
+  .news .title {
+    font-size: 2.1vw;
+  }
+  .news .show-all,
+  .news-list .news-desc {
+    font-size: 1.15vw;
+  }
+  .email .blue-p {
+    font-size: 1.45vw;
+  }
+  .email p {
+    font-size: 1.2vw;
+  }
+  .email-input input {
+    font-size: 1.85vw;
+    height: 5.65vw;
+  }
+  .email-input button {
+    height: 5.65vw;
+    width: 7.6vw;
+    background-size: cover;
+  }
+  .reasons h2 {
+    font-size: 3.45vw;
+  }
+  .reasons-list {
+    margin-top: 6.5vw;
+  }
+  .reasons-block {
+    margin-bottom: 4.8vw;
+  }
+  .reasons-img,
+  .reasons-img .img-cell {
+    width: 5.8vw;
+    height: 5.8vw;
+  }
+  .reasons-img img {
+    width: 50%;
+  }
+  .reasons-desc {
+    font-size: 1.3vw;
+    margin-top: 2.45vw;
+  }
+  .reasons {
+    padding: 5.8vw 2.1vw;
+    padding-bottom: 6vw;
+  }
+  .copyright,
+  .foot-menu,
+  .foot-cont p {
+    font-size: 1.15vw;
+  }
+  .foot-cont {
+    margin-bottom: 2.5vw;
+  }
+  .foot-cont span {
+    font-size: 1.6vw;
+  }
+  .foot-basket {
+    bottom: 2.8vw;
+  }
+  .foot-basket img {
+    width: 3.85vw;
+    height: 3.85vw;
+  }
+  .foot-text {
+    padding-top: 2.8vw;
+    font-size: 1.15vw;
+  }
+  .foot-text p {
+    margin-top: 2.1vw;
+  }
+
+   .container{
+	  padding: 1.4vw;
+	  padding-right: 0;
+   }
+
+  /*********  article *************/
+  
+  .article{
+  	padding-left: 2.1vw;
+  	padding-right: 2.1vw;
+  	padding-top: 1.5vw;
+  }
+  .article-container{
+  	margin-top: 2.85vw;
+  }
+  .basket .total-price,
+  .basket .amount {
+    font-size: 1.45vw;
+  }
+  .back-article,
+  .article-container .title {
+    font-size: 1.15vw;
+  }
+  .article-soc img {
+    width: 2.77vw;
+    height: 2.85vw;
+  }
+  .article-container .right-block header {
+    font-size: 2.85vw;
+  }
+  .article-container .article-text {
+    font-size: 1.15vw;
+    padding-top: 3.25vw;
+  }
+  .article-container .article-text p {
+    font-size: 1.15vw;
+    margin-bottom: 2.5vw;
+  }
+  .next-page {
+    font-size: 1.15vw;
+    padding-top: 1.9vw;
+    padding-bottom: 10.8vw;
+  }
+  /***********  articles *************/
+  
+  .article-list h3 {
+    font-size: 2.85vw;
+  }
+  .article-block {
+    padding: 1.8vw 0;
+  }
+  .article-desc header{
+  	font-size: 2.1vw;
+  }
+  .article-desc p{
+  	font-size: 1.15vw;
+  }
+  .pagination{
+  	height: 13.25vw;
+  }
+  .article-list{
+  	padding-top: 2.5vw;
+  	padding-left: 2.1vw;
+  	padding-right: 2.1vw;
+  }
+  .article-list h3{
+  	margin-bottom: 3.25vw;
+  }
+}

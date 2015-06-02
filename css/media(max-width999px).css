@@ -1,0 +1,227 @@
+@media(max-width: 999px){
+	.nav,
+	.feedback,
+	.search-block input,
+	.search-block button,
+	.gar{
+		font-size: 10px;
+	}
+	.search-block button{
+		width: 64px;
+	}
+	.nav .second-level a{
+		font-size: 11px;
+		padding: 10px 20px;
+	}
+	.telephone{
+		font-size: 11px;
+	}
+	.telephone p:before{
+		width: 12px;
+		height: 12px;
+		background-size: cover;
+	}
+	.telephone p,
+	.feedback p{
+		padding-left: 20px;
+	}
+	.feedback p:before{
+		width: 13.5px;
+		height: 9.5px;
+		background-size: cover;
+	}
+	.gar div{
+		width: 129px;
+		padding-top: 3px;
+	}
+	.gar img{
+		width: 25.5px;
+		height: 25.5px;
+		position: relative;
+  		top: 2px;
+	}
+	.side-form input[type="text"]{
+		font-size: 11px;
+		height: 30px;
+	}
+	.side-form textarea{
+		font-size: 11px;
+		height: 55px;
+	}
+	.side-form input[type="submit"]{
+		font-size: 10px;
+		height: 25px;
+	}
+	.basket{
+		font-size: 14px;
+	}
+	.basket-icon{
+		width: 14.5px;
+		height: 14.5px;
+		background-size: cover;
+	}
+	.banner-text .title{
+		font-size: 32.5px;
+		width: 690px;
+		height: 118.5px;
+	}
+	.banner-item{
+		font-size: 13px;
+		width: 160px;
+		height: 210px;
+	}
+	.banner-col .procent{
+		font-size: 50px;
+	}
+	.banner-col .procent span{
+		font-size: 32px;
+	}
+	.help .h-text{
+		font-size: 20.5px;
+	}
+	.help .m-text,
+	.help .more{
+		font-size: 11.5px;
+	}
+	.brands-item{
+		width: 174px;
+		height: 116px;
+	}
+	.news .title{
+		font-size: 21px;
+	}
+	.news .show-all,
+	.news-list .news-desc{
+		font-size: 11.5px;
+	}
+	.email .blue-p{
+		font-size: 14.5px;
+	}
+	.email p{
+		font-size: 12px;
+	}
+	.email-input input{
+		font-size: 18.5px;
+		height: 56.5px;
+	}
+	.email-input button{
+		height: 56.5px;
+		width: 76px;
+		background-size: cover;
+	}
+	.reasons h2{
+		font-size: 34.5px;
+	}
+	.reasons-list{
+		margin-top: 65px;
+	}
+	.reasons-block{
+		margin-bottom: 48px;
+	}
+	.reasons-img,
+	.reasons-img .img-cell{
+		width: 58px;
+		height: 58px;
+	}
+	.reasons-desc{
+		font-size: 13px;
+		margin-top: 24.5px;
+	}
+	.reasons{
+		padding: 58px 21px;
+		padding-bottom: 60px;
+	}
+	.copyright,
+	.foot-menu,
+	.foot-cont p{
+		font-size: 11.5px;
+	}
+	.foot-cont{
+		margin-bottom: 25px;
+	}
+	.foot-cont span{
+		font-size: 16px;
+	}
+	.foot-basket{
+		bottom: 20px;
+	}
+	.foot-basket img{
+		width: 38.5px;
+		height: 38.5px;
+	}
+	.foot-text{
+		padding-top: 28px;
+		font-size: 11.5px;
+	}
+	.foot-text p{
+		margin-top: 21px;
+	}
+	
+	.container{
+		padding: 14px;
+		padding-right: 0;
+	}
+/*********article ************/
+
+	.article{
+		padding-left: 21px;
+		padding-right: 21px;
+		padding-top: 15px;
+	}
+	.article-container{
+		margin-top: 28.5px;
+	}
+	.basket .total-price,
+	.basket .amount{
+		font-size: 14.5px;
+	}
+	.back-article,
+	.article-container .title{
+		font-size: 11.5px;
+	}
+	.article-soc img{
+		width: 27.5px;
+		height: 28.5px;
+	}
+	.article-container .right-block header{
+		font-size: 28.5px;
+	}
+	.article-container .article-text{
+		font-size: 11.5px;
+		padding-top: 32.5px;
+	}
+	.article-container .article-text p{
+		font-size: 11.5px;
+		margin-bottom: 25px;
+	}
+	.next-page{
+		font-size: 11.5px;
+		padding-top: 19px;
+		padding-bottom: 108px;
+	}
+
+/***********  articles *************/
+	.article-list h3 {
+		font-size: 28.5px;
+	}
+  .article-block {
+	    padding: 18px 0;
+	}
+  .article-desc header{
+  		font-size: 21px;
+    }
+  .article-desc p{
+  		font-size: 11.5px;
+     }
+  .pagination{
+  		height: 132.5px;
+    }
+    .article-list{
+    	padding-top: 25px;
+    	padding-left: 21px;
+    	padding-right: 21px;
+    }
+    .article-list h3{
+    	margin-bottom: 32.5px;
+    }
+}
