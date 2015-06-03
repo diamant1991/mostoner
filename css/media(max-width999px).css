@@ -6,6 +6,9 @@
 	.gar{
 		font-size: 10px;
 	}
+	.main-h3{
+  		font-size: 28.5px;
+  	}
 	.search-block button{
 		width: 64px;
 	}
@@ -224,4 +227,140 @@
     .article-list h3{
     	margin-bottom: 32.5px;
     }
+/***********  item  *************/
+	.item-img {
+    width: 250px;
+    height: 250px;
+  }
+  .adver,
+  .title-item {
+    font-size: 11.5px;
+    margin-top: 19px;
+  }
+  .item {
+    margin-top: 21px;
+    padding-bottom: 196.5px;
+  }
+  .item h3 {
+    font-size: 28.5px;
+  }
+  .item-var {
+    margin-top: 25px;
+    padding: 19px 0;
+  }
+  .item-var .price{
+  	font-size: 21px;
+  	padding-top: 2px;
+  }
+  .item-var .prev-price{
+  	font-size: 11.5px;
+  	padding-right: 11.5px;
+  	top: -7px;
+  }
+  .item-var .basket-link a{
+  	font-size: 11.5px;
+  	width: 86px;
+  	height: 25px;
+  }
+  .item-var .order-click{
+  	font-size: 11.5px;
+  	margin-right: 16px;
+  	top: 6px;
+  }
+  .print,
+  .item-info,
+  .item-link,
+  .other-text{
+  	padding: 26px 0;
+  	font-size: 11.5px;
+  }
+  .print header{
+  	margin-bottom: 13px;
+  }
+  .other-text p:first-child{
+  	margin-bottom: 7px;
+  	font-size: 14px;
+  }
+  .adver-img,
+  .adver,
+  .adver-cell{
+  	height: 56.5px;
+  }
+  
+  /***********  order company  *************/
+
+  .order-company{
+		margin-top: 28.5px;
+		padding: 32.5px 0;
+	}
+	.face-var{
+		margin-bottom: 28.5px;
+		font-size: 17px;
+	}
+	.face-var li{
+		margin-right: 21px;
+	}
+	.main-input{
+		margin: 19px 0;
+	}
+	.main-input p{
+		font-size: 11.5px;
+		width: 187px;
+	}
+	.main-input input{
+		font-size: 11.5px;
+		padding: 0 7px;
+		width: 305px;
+		height: 36px;
+	}
+	.main-input .small-input{
+		width: 158px;
+	}
+	.slct{
+		width: 305px;
+		height: 36px;
+		padding-top: 11.5px;
+  		padding-left: 14.5px;
+  		font-size: 11.5px;
+	}
+	.drop{
+		width: 305px;
+	}
+		.drop li{
+			padding: 6.5px 11px 6.5px 19px;
+			font-size: 11.5px;
+		}
+	.radio{
+		font-size: 11.5px;
+		text-indent: 21px;
+		margin-bottom: 10.5px;
+		padding: 4px 0;
+	}
+	.main-input textarea{
+		width: 305px;
+		font-size: 11.5px;
+		padding: 0 7px;
+		padding-top: 7px;
+		height: 71.5px;
+	}
+	.main-textarea p{
+		padding-top: 9px;
+	}
+	.checkout{
+		padding-top: 36px;
+		padding-bottom: 71.5px;
+		font-size: 14px;
+	}
+	.checkout a{
+		width: 189px;
+		height: 36px;
+	}
+	.radio{
+		background: url(../images/s-radio-a.png)no-repeat;
+		background-position: 1px;
+	}
+	.radio.active {
+	background: url(../images/s-radio.png)no-repeat;
+	background-position: 1px;
+}
 }

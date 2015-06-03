@@ -2,6 +2,9 @@
   .logo img {
     width: 70%;
   }
+  .main-h3{
+  	font-size: 2.85vw;
+  }
   .nav,
   .feedback,
   .search-block input,
@@ -165,21 +168,19 @@
   .foot-text p {
     margin-top: 2.1vw;
   }
-
-   .container{
-	  padding: 1.4vw;
-	  padding-right: 0;
-   }
-
+  .container {
+    padding: 1.4vw;
+    padding-right: 0;
+  }
   /*********  article *************/
   
-  .article{
-  	padding-left: 2.1vw;
-  	padding-right: 2.1vw;
-  	padding-top: 1.5vw;
+  .article {
+    padding-left: 2.1vw;
+    padding-right: 2.1vw;
+    padding-top: 1.5vw;
   }
-  .article-container{
-  	margin-top: 2.85vw;
+  .article-container {
+    margin-top: 2.85vw;
   }
   .basket .total-price,
   .basket .amount {
@@ -217,21 +218,152 @@
   .article-block {
     padding: 1.8vw 0;
   }
-  .article-desc header{
-  	font-size: 2.1vw;
+  .article-desc header {
+    font-size: 2.1vw;
   }
-  .article-desc p{
+  .article-desc p {
+    font-size: 1.15vw;
+  }
+  .pagination {
+    height: 13.25vw;
+  }
+  .article-list {
+    padding-top: 2.5vw;
+    padding-left: 2.1vw;
+    padding-right: 2.1vw;
+  }
+  .article-list h3 {
+    margin-bottom: 3.25vw;
+  }
+  /***********  item *************/
+  
+  .item-img {
+    width: 25vw;
+    height: 25vw;
+  }
+  .adver,
+  .title-item {
+    font-size: 1.15vw;
+    margin-top: 1.9vw;
+  }
+  .item {
+    margin-top: 2.1vw;
+    padding-bottom: 19.65vw;
+  }
+  .item h3 {
+    font-size: 2.85vw;
+  }
+  .item-var {
+    margin-top: 2.5vw;
+    padding: 1.9vw 0;
+  }
+  .item-var .price{
+  	font-size: 2.1vw;
+  	padding-top: 0.2vw;
+  }
+  .item-var .prev-price{
+  	font-size: 1.15vw;
+  	padding-right: 1.15vw;
+  	top: -0.7vw;
+  }
+  .item-var .basket-link a{
+  	font-size: 1.15vw;
+  	width: 8.6vw;
+  	height: 2.5vw;
+  }
+  .item-var .order-click{
+  	font-size: 1.15vw;
+  	margin-right: 1.6vw;
+  	top: 0.6vw;
+  }
+  .print,
+  .item-info,
+  .item-link,
+  .other-text{
+  	padding: 2.58vw 0;
   	font-size: 1.15vw;
   }
-  .pagination{
-  	height: 13.25vw;
+  .print header{
+  	margin-bottom: 1.3vw;
   }
-  .article-list{
-  	padding-top: 2.5vw;
-  	padding-left: 2.1vw;
-  	padding-right: 2.1vw;
+  .other-text p:first-child{
+  	margin-bottom: 0.7vw;
+  	font-size: 1.43vw;
   }
-  .article-list h3{
-  	margin-bottom: 3.25vw;
+  .item-img img{
+  	width: 99%;
   }
+  .adver-img,
+  .adver,
+  .adver-cell{
+  	height: 5.65vw;
+  }
+
+  /***********  order company  *************/
+	.order-company{
+		margin-top: 2.85vw;
+		padding: 3.25vw 0;
+	}
+	.face-var{
+		margin-bottom: 2.85vw;
+		font-size: 1.72vw;
+	}
+	.face-var li{
+		margin-right: 2.1vw;
+	}
+	.main-input{
+		margin: 1.9vw 0;
+	}
+	.main-input p{
+		font-size: 1.15vw;
+		width: 18.7vw;
+	}
+	.main-input input{
+		font-size: 1.15vw;
+		padding: 0 0.7vw;
+		width: 30.5vw;
+		height: 3.6vw;
+	}
+	.main-input .small-input{
+		width: 15.78vw;
+	}
+	.slct{
+		width: 30.5vw;
+		height: 3.6vw;
+		padding-top: 1.15vw;
+  		padding-left: 1.45vw;
+  		font-size: 1.15vw;
+	}
+	.drop{
+		width: 30.5vw;
+	}
+		.drop li{
+			padding: 0.65vw 1.1vw 0.65vw 1.9vw;
+			font-size: 1.15vw;
+		}
+	.radio{
+		font-size: 1.15vw;
+		text-indent: 2.1vw;
+		margin-bottom: 1.05vw;
+		padding: 0.4vw 0;
+	}
+	.main-input textarea{
+		width: 30.5vw;
+		font-size: 1.15vw;
+		padding: 0 0.7vw;
+		padding-top: 0.7vw;
+		height: 7.15vw;
+	}
+	.main-textarea p{
+		padding-top: 0.9vw;
+	}
+	.checkout{
+		padding-top: 3.6vw;
+		padding-bottom: 7.15vw;
+		font-size: 1.42vw;
+	}
+	.checkout a{
+		width: 18.9vw;
+		height: 3.6vw;
+	}
 }
