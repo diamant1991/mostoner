@@ -362,5 +362,120 @@
 	.radio.active {
 	background: url(../images/s-radio.png)no-repeat;
 	background-position: 1px;
-}
+}	
+	/***********  basket  *************/
+	.basket-table td{
+        padding: 16px 0;
+    }
+    .basket-img{
+        width: 75px;
+        height: 75px;
+    }
+        .basket-img img{
+            width: 93%;
+        }
+    .basket-table h4{
+        font-size: 17px;
+        margin-bottom: 11.5px;
+    }
+    .basket-table .p1{
+        font-size: 11.5px;
+        margin-bottom: 6px;
+    }
+    .basket-table .p2{
+        font-size: 11.5px;
+    }
+    .amount-block .minus, 
+    .amount-block .plus{
+        width: 25px;
+        height: 25px;
+        padding-top: 5.5px;
+        font-size: 11.5px;
+    }
+    .amount-block input{
+        width: 36px;
+        height: 25px;
+        font-size: 11.5px;
+    }
+    .basket-table .price-today{
+        font-size: 17px;
+    }
+    .basket-table .prev-price{
+        font-size: 10px;
+        padding-right: 10px;
+        top: -5.5px;
+    }
+    .basket-table .sale-tr td{
+        font-size: 17px;
+        padding: 10px 0 !important;
+    }
+    .basket-table .td-null{
+        padding-top: 28.5px;
+    }
+    .ar-img{
+        width: 75px;
+    }
+    .basket-table .var-delivery{
+        font-size: 11.5px;
+    }
+    .basket-table .var-delivery li{
+        margin-bottom: 21px;
+    }
+    .data-tr td{
+        padding-top: 36px;
+        padding-bottom: 143.5px;
+    }
+    .order-data ul{
+        width: 265px;
+    }
+    .order-data ul li{
+        font-size: 11.5px;
+        padding: 7px 0;
+    }
+    .specify{
+        width: 265px;
+        height: 36px;
+        font-size: 14px;
+        padding-top: 10px;
+        margin-top: 21px;
+        margin-bottom: 21px;
+    }
+    .one-click{
+        font-size: 14px;
+        left: 17.5px;
+    }
+	/***********  printer  *************/
+	.printer-img{
+        width: 128.5px;
+        height: 128.5px;
+    }
+    .basket-table h4{
+        margin-bottom: 21px;
+        margin-top: 8.8px;
+    }
+    .basket-table .p1{
+        margin-bottom: 10px;
+    }
+    .print-price{
+        font-size: 20px;
+        padding-top: 8.8px;
+    }
+    .add-basket{
+        width: 86px;
+        height: 25.5px;
+        padding-top: 5.5px;
+        margin-top: 21px;
+        font-size: 11.5px;
+    }
+    .not-available{
+        font-size: 14px;
+        padding-top: 9px;
+    }
+    .printer-table .amount-block{
+        margin-top: 21px;
+    }
+    .printer-table + .pagination{
+        height: 93px;
+    }
+
 }

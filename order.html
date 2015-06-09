@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+	<title>Order</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="" >
+	<meta name="description" content="">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/main.less">
+	<link rel="stylesheet" href="css/media(max-width1399px).css">
+	<link rel="stylesheet" href="css/media(max-width999px).css">
+	<script src="js/less.min.js"></script>
+	<script src="js/modernizr-2.8.3.min.js"></script>	
+</head>
+<body>
+
+<div class="wrapper clearfix">
+	<div class="sidebar">
+		<div class="logo">
+			<a href="#">
+				<img src="images/logo.png" alt="">
+			</a>
+		</div>
+		<div class="side-block">
+			<nav class="nav">
+				<ul class="first-level">
+					<li>
+						<a href="#">каталог картриджей</a>
+						<ul class="second-level">
+							<li>
+								<a href="#">Оригинальные</a>
+								<ul class="third-level">
+									<li>
+										<a href="#">Canon</a>
+										<ul class="fourth-level">
+											<li><a href="#">Для лазерных принтеров</a></li>
+											<li><a href="#">Для струйных принтеров</a></li>
+											<li><a href="#">Для копировальной техники</a></li>
+											<li><a href="#">Для струйных плоттеров</a></li>
+											<li><a href="#">Для факсов</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Brothers</a></li>
+									<li><a href="#">HP</a></li>
+									<li><a href="#">Lexmark</a></li>
+									<li><a href="#">Panasonic</a></li>
+									<li><a href="#">Epson</a></li>
+									<li><a href="#">Xerox</a></li>
+									<li><a href="#">Kyocera</a></li>
+									<li><a href="#">Samsung</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#">Совместимые</a>
+							</li>
+						</ul>
+					</li>
+					<li><a href="#">доставка</a></li>
+					<li><a href="#">самовывоз</a></li>
+					<li><a href="#">акции</a></li>
+					<li><a href="#">Уцененные товары</a></li>
+				</ul>
+			</nav>
+			<div class="telephone">
+				<p>8 (495) 223-48-44</p>
+			</div>
+			<div class="feedback">
+				<p>Обратный звонок</p>
+			</div>
+			<form class="side-form">
+				<fieldset>
+					<input type="text" placeholder="Телефон *">
+					<input type="text" placeholder="Email">
+					<textarea placeholder="Вопрос"></textarea>
+				</fieldset>
+				<input type="submit" value="Отправить">
+			</form>
+		</div>
+	</div>
+	<div class="main-content">
+		<div class="top-block grey">
+			<div class="search-block">
+				<input type="text" placeholder="Поиск картриджа">
+				<button>Найти</button>
+				<div class="search-icon"></div>
+			</div>
+			<div class="top-column gar clearfix">
+				<div>
+					<img src="images/ok.png" alt="">
+					<span>Гарантия качества<br> и честной цены</span>
+				</div>
+			</div>
+			<div class="top-column">
+				<a href="#" class="clearfix basket">
+					<span class="basket-icon"></span>
+					<span class="total-price">4 215 Р</span>
+					<span class="amount">/ 5 шт</span>
+				</a>
+			</div>
+		</div>
+		<div class="container">
+			<div class="article">
+				<h3 class="main-h3">Оформление заказа</h3>
+				<div class="order-company">
+					<ul class="face-var clearfix">
+						<li>
+							<span onclick="opcl(mydivs,'.individual'); return false;">На физ.лицо</span>
+						</li>
+						<li>
+							<span class="active" onclick="opcl(mydivs,'.legal'); return false;">На юр.лицо</span>
+						</li>
+					</ul>
+					<div class="legal">
+						<div class="main-input">
+			 				<p>Наименование организации</p>
+			 				<div class="input-container">
+			 					<input type="text">
+			 				</div>
+			 			</div>
+			 			<div class="main-input">
+			 				<p>ИНН</p>
+			 				<div class="input-container">
+			 					<input type="text" class="small-input">
+			 				</div>
+			 			</div>
+			 			<div class="main-input">
+			 				<p>КПП</p>
+			 				<div class="input-container">
+			 					<input type="text" class="small-input">
+			 				</div>
+			 			</div>
+			 			<div class="main-input">
+			 				<p>ОГРН</p>
+			 				<div class="input-container">
+			 					<input type="text" class="small-input">
+			 				</div>
+			 			</div>
+			 			<div class="main-input">
+			 				<p>Бик банка</p>
+			 				<div class="input-container">
+			 					<input type="text" class="small-input">
+			 				</div>
+			 			</div>
+			 			<div class="main-input">
+			 				<p>Рассчетный счет</p>
+			 				<div class="input-container">
+			 					<input type="text">
+			 				</div>
+			 			</div>
+			 			<div class="main-input">
+			 				<p>Контактное лицо</p>
+			 				<div class="input-container">
+			 					<input type="text">
+			 				</div>
+			 			</div>
+			 			<div class="main-input">
+			 				<p>Телефон</p>
+			 				<div class="input-container">
+			 					<input type="text" class="small-input">
+			 				</div>
+			 			</div>
+			 			<div class="main-input">
+			 				<p>Электронная почта</p>
+			 				<div class="input-container">
+			 					<input type="text">
+			 				</div>
+			 			</div>
+			 			<div class="main-input">
+			 				<p>Способ доставки</p>
+			 				<div class="input-container">
+								<div class="radioblock">
+									<div class="radio active">Курьерская доставка по Москве</div><br>
+									<div class="radio">Самовывоз</div><br>
+									<div class="radio">Доставка в регионы</div>
+									<div class="clear"></div>
+									<input type="hidden">
+								</div>
+			 				</div>
+			 			</div>
+			 			<div class="main-input">
+			 				<p>Ближайшая станция метро</p>
+			 				<div class="input-container">
+			 					<div class="select">
+									<a href="javascript:void(0);" class="slct">Академическая</a>
+									<ul class="drop">
+										<li><a>Станция 1</a></li>
+										<li><a>Станция 2</a></li>
+										<li><a>Станция 3</a></li>
+										<li><a>Станция 4</a></li>
+									</ul>
+									<input type="hidden" id="select">
+								</div>
+			 				</div>
+			 			</div>
+			 			<div class="main-input main-textarea">
+			 				<p>Адрес</p>
+			 				<div class="input-container">
+			 					<textarea></textarea>
+			 				</div>
+			 			</div>
+			 			<div class="main-input main-textarea">
+			 				<p>Комментарий к заказу</p>
+			 				<div class="input-container">
+			 					<textarea></textarea>
+			 				</div>
+			 			</div>
+
+		 			</div><!-- legal -->
+		 			<div class="individual">
+			 				<div class="main-input">
+				 				<p>ФИО получателя</p>
+				 				<div class="input-container">
+				 					<input type="text">
+				 				</div>
+				 			</div>
+				 			<div class="main-input">
+				 				<p>Телефон</p>
+				 				<div class="input-container">
+				 					<input type="text">
+				 				</div>
+				 			</div>
+				 			<div class="main-input">
+				 				<p>Электронная почта</p>
+				 				<div class="input-container">
+				 					<input type="text">
+				 				</div>
+				 			</div>
+				 			<div class="main-input">
+				 				<p>Способ доставки</p>
+				 				<div class="input-container">
+									<div class="radioblock">
+										<div class="radio active">Курьерская доставка по Москве</div><br>
+										<div class="radio">Самовывоз</div><br>
+										<div class="radio">Доставка в регионы</div>
+										<div class="clear"></div>
+										<input type="hidden">
+									</div>
+				 				</div>
+				 			</div>
+				 			<div class="main-input">
+				 				<p>Ближайшая станция метро</p>
+				 				<div class="input-container">
+				 					<div class="select">
+										<a href="javascript:void(0);" class="slct">Академическая</a>
+										<ul class="drop">
+											<li><a>Станция 1</a></li>
+											<li><a>Станция 2</a></li>
+											<li><a>Станция 3</a></li>
+											<li><a>Станция 4</a></li>
+										</ul>
+										<input type="hidden" id="select">
+									</div>
+				 				</div>
+				 			</div>
+				 			<div class="main-input main-textarea">
+				 				<p>Адрес</p>
+				 				<div class="input-container">
+				 					<textarea></textarea>
+				 				</div>
+				 			</div>
+				 			<div class="main-input main-textarea">
+				 				<p>Комментарий к заказу</p>
+				 				<div class="input-container">
+				 					<textarea></textarea>
+				 				</div>
+				 			</div>
+			 			</div><!-- individual -->
+					</div>
+				<div class="checkout">
+					<a href="#">Оформить заказ</a>
+				</div>
+			</div>
+
+			<footer class="clearfix">
+				<div class="top-foot clearfix">
+					<a href="#" class="foot-basket">
+						<img src="images/foot-basket.png" alt="">
+					</a>
+					<div class="col-25">
+						<div class="copyright">
+							Mostoner ©2015
+						</div>
+					</div>
+					<div class="col-25">
+						<div class="foot-menu">
+							<ul>
+								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Статьи</a></li>
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Реквизиты</a></li>
+								<li><a href="#">Доставка и оплата</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-50">
+						<div class="foot-cont">
+							<p>График работы офиса: </p>
+							<span>Пн-Пт с 10.00 до 19.00</span>
+						</div>
+						<div class="foot-cont">
+							<p>Адрес офиса: </p>
+							<span>Москва, Шаболовская 33, офис 706</span>
+						</div>
+					</div>
+				</div>
+				<div class="foot-text">
+					<div class="title">Приветствуем вас в интернет магазине картриджей Mostoner!</div>
+					<p>Мы осуществляем продажу картриджей для принтеров и других печатающих устройств. Открыта продажа лазерных картриджей и картриджей для струйных принтеров. Мы предлагаем не только оригинальные картриджи, но и совместимые картриджи для всевозможных моделей принтеров различных марок: HP (Hewlett Packard), Canon, Epson, Xerox, Panasonic, Samsung, Brother, Kyocera, Lexmark, Oki и других.</p>
+					<p>
+						Желающих купить картридж для лазерного принтера мы обеспечиваем исчерпывающей информацией о необходимом товаре. А обладая проверенными и крепкими отношениями с лучшими поставщиками, мы можем гарантировать безупречное качество представленной продукции и откровенно привлекательные цены на неё.
+					</p>
+				</div>
+			</footer><!-- footer -->
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/input.js"></script>
+</body>
+</html>

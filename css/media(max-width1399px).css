@@ -366,4 +366,118 @@
 		width: 18.9vw;
 		height: 3.6vw;
 	}
+  /***********  basket  *************/
+    .basket-table td{
+        padding: 1.6vw 0;
+    }
+    .basket-img{
+        width: 7.5vw;
+        height: 7.5vw;
+    }
+        .basket-img img{
+            width: 93%;
+        }
+    .basket-table h4{
+        font-size: 1.72vw;
+        margin-bottom: 1.15vw;
+    }
+    .basket-table .p1{
+        font-size: 1.15vw;
+        margin-bottom: 0.6vw;
+    }
+    .basket-table .p2{
+        font-size: 1.15vw;
+    }
+    .amount-block .minus, 
+    .amount-block .plus{
+        width: 2.5vw;
+        height: 2.5vw;
+        padding-top: 0.55vw;
+        font-size: 1.15vw;
+    }
+    .amount-block input{
+        width: 3.6vw;
+        height: 2.5vw;
+        font-size: 1.15vw;
+    }
+    .basket-table .price-today{
+        font-size: 1.72vw;
+    }
+    .basket-table .prev-price{
+        font-size: 1vw;
+        padding-right: 1vw;
+        top: -0.55vw;
+    }
+    .basket-table .sale-tr td{
+        font-size: 1.72vw;
+        padding: 1vw 0 !important;
+    }
+    .basket-table .td-null{
+        padding-top: 2.85vw;
+    }
+    .ar-img{
+        width: 7.5vw;
+    }
+    .basket-table .var-delivery{
+        font-size: 1.15vw;
+    }
+    .basket-table .var-delivery li{
+        margin-bottom: 2.1vw;
+    }
+    .data-tr td{
+        padding-top: 3.6vw;
+        padding-bottom: 14.35vw;
+    }
+    .order-data ul{
+        width: 26.5vw;
+    }
+    .order-data ul li{
+        font-size: 1.15vw;
+        padding: 0.7vw 0;
+    }
+    .specify{
+        width: 26.5vw;
+        height: 3.6vw;
+        font-size: 1.43vw;
+        padding-top: 1vw;
+        margin-top: 2.1vw;
+        margin-bottom: 2.1vw;
+    }
+    .one-click{
+        font-size: 1.43vw;
+        left: 1.75vw;
+    }
+    /***********  printer  *************/
+    .printer-img{
+        width: 12.85vw;
+        height: 12.85vw;
+    }
+    .basket-table h4{
+        margin-bottom: 2.1vw;
+        margin-top: 0.88vw;
+    }
+    .basket-table .p1{
+        margin-bottom: 1vw;
+    }
+    .print-price{
+        font-size: 2vw;
+        padding-top: 0.88vw;
+    }
+    .add-basket{
+        width: 8.6vw;
+        height: 2.55vw;
+        padding-top: 0.55vw;
+        margin-top: 2.1vw;
+        font-size: 1.15vw;
+    }
+    .not-available{
+        font-size: 1.42vw;
+        padding-top: 0.88vw;
+    }
+    .printer-table .amount-block{
+        margin-top: 2.1vw;
+    }
+    .printer-table + .pagination{
+        height: 9.3vw;
+    }
 }

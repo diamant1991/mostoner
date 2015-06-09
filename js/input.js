@@ -1,3 +1,15 @@
+var mydivs=new Array('.individual','.legal');
+
+function opcl(arr, e){
+    if ($(e).css('display') == 'none'){
+        for(var i in arr){   
+           $(arr[i]).hide();
+        }
+        $(e).show();       
+    }
+}
+
+
 // RadioButton
 $('.radioblock').find('.radio').each(function(){
 	$(this).click(function(){
