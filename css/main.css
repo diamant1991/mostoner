@@ -35,6 +35,7 @@ a {
   float: right;
   width: 75%;
   background-color: white;
+  position: relative;
 }
 .side-block {
   width: 225px;
@@ -1384,4 +1385,159 @@ footer {
 }
 .main-text {
   width: 60%;
+}
+.photo-block {
+  position: relative;
+  margin-top: 40px;
+}
+.photo-img {
+  float: left;
+  width: 640px;
+  height: 370px;
+}
+.signature {
+  float: left;
+  width: 140px;
+  margin-left: 25px;
+  font-size: 14px;
+  opacity: 0.5;
+  line-height: 1.3;
+  padding-top: 5px;
+}
+.save-file {
+  margin-top: 45px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #e0e0e0;
+}
+.save-file button {
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  color: #19adcb;
+  font-family: "GothamProBold";
+  text-decoration: underline;
+  font-size: 16px;
+}
+.select a.slct-other {
+  display: inline-block;
+  width: auto;
+  color: #19adcb !important;
+  height: auto;
+  background-color: transparent;
+  background-image: url(../images/blue-drop.png);
+  background-position: 100%;
+  padding-top: 4px;
+  padding-left: 5px;
+  padding-right: 13px;
+  padding-bottom: 5px;
+}
+.select a.slct-other + .drop {
+  width: 240px;
+}
+.filter {
+  font-family: "GothamProRegular";
+}
+.filter-table {
+  width: 100%;
+  color: #444852;
+}
+.filter-table .slct-td {
+  width: 30%;
+}
+.filter-table .select {
+  position: relative;
+  top: 7px;
+}
+.var-fil {
+  cursor: pointer;
+  color: #a7adba;
+  display: inline-block;
+  margin-left: 15px;
+}
+.var-fil:hover {
+  color: #19adcb;
+}
+.var-fil.active {
+  color: #19adcb;
+}
+.by-price {
+  background: url(../images/cost.png) no-repeat;
+  background-position: 100% 5px;
+  padding-right: 20px;
+}
+.form-mask {
+  position: absolute;
+  background: rgba(243, 242, 240, 0.8);
+  z-index: 2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.modal {
+  width: 480px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  margin-left: -240px;
+  z-index: 3;
+  background-color: white;
+  padding: 45px 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  display: none;
+}
+.modal header {
+  text-align: center;
+  font-size: 28px;
+  color: #444852;
+  font-family: "GothamProBold";
+  padding-bottom: 20px;
+}
+.modal form {
+  width: 370px;
+  margin: auto;
+}
+.modal input[type="text"] {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid transparent;
+  padding: 0 10px;
+  background: #f3f2f0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-family: "GothamProRegular";
+  color: #444852;
+  -webkit-transition: 0.2s border ease-in-out;
+  -moz-transition: 0.2s border ease-in-out;
+  transition: 0.2s border ease-in-out;
+  margin-top: 20px;
+  text-align: center;
+}
+.modal input[type="text"]:focus {
+  border: 1px solid #999999;
+}
+.modal input[type="submit"] {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: white;
+  font-family: "GothamProBold";
+  cursor: pointer;
+  border: 0;
+  background-color: #19adcb;
+}
+.click-modal {
+  cursor: pointer;
 }

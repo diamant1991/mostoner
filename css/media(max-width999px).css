@@ -477,5 +477,74 @@
     .printer-table + .pagination{
         height: 93px;
     }
-
+	/***********  styles  *************/
+	.main-block{
+        margin-top: 28.5px;
+        padding-top: 25.5px;
+        font-size: 11.5px;
+    }
+    .main-block h2{
+        font-size: 20px;
+    }
+    .main-block p{
+        margin-top: 21px;
+        font-size: 11.5px;
+    }
+    .main-block ul{
+        margin-top: 21px;
+        margin-left: 13px;
+        font-size: 11.5px;
+    }
+    .photo-block{
+        margin-top: 28.5px;
+    }
+    .photo-img,
+    .photo-img img{
+        width: 458px;
+        height: 265px;
+    }
+    .signature{
+        width: 100px;
+        margin-left: 19px;
+        font-size: 10px;
+        padding-top: 3.5px;
+    }
+    .save-file{
+        margin-top: 32.5px;
+        padding-bottom: 50px;
+    }
+    .save-file button{
+        font-size: 11.5px;
+    }
+    /***********  catalog  *************/
+    .filter-table{
+        font-size: 11.5px;
+    }
+    .select a.slct-other + .drop{
+        width: 187px;
+    }
+    /***********  modal  *************/
+    .modal{
+        width: 345px;
+        margin-left: -172.5px;
+        padding: 32.5px;
+   }
+   .modal header{
+       font-size: 20px;
+       padding-bottom: 15px;
+   }
+   .modal form{
+      width: 265px;
+   }
+   .modal input[type="text"]{
+      font-size: 15px;
+      height: 36px;
+      padding: 0 7px;
+      margin-top: 15px;
+   }
+   .modal input[type="submit"]{
+      font-size: 15px;
+      height: 36px;
+      margin-top: 15px;
+   }
 }

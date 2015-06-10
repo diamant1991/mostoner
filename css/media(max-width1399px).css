@@ -480,4 +480,74 @@
     .printer-table + .pagination{
         height: 9.3vw;
     }
+    /***********  styles  *************/
+    .main-block{
+        margin-top: 2.85vw;
+        padding-top: 2.55vw;
+        font-size: 1.15vw;
+    }
+    .main-block h2{
+        font-size: 2vw;
+    }
+    .main-block p{
+        margin-top: 2.1vw;
+        font-size: 1.15vw;
+    }
+    .main-block ul{
+        margin-top: 2.1vw;
+        margin-left: 1.3vw;
+        font-size: 1.15vw;
+    }
+    .photo-block{
+        margin-top: 2.85vw;
+    }
+    .photo-img,
+    .photo-img img{
+        width: 45.8vw;
+        height: 26.5vw;
+    }
+    .signature{
+        width: 10vw;
+        margin-left: 1.9vw;
+        font-size: 1vw;
+        padding-top: 0.35vw;
+    }
+    .save-file{
+        margin-top: 3.25vw;
+        padding-bottom: 5vw;
+    }
+    .save-file button{
+        font-size: 1.15vw;
+    }
+    /***********  catalog  *************/
+    .filter-table{
+        font-size: 1.15vw;
+    }
+    .select a.slct-other + .drop{
+        width: 18.7vw;
+    }
+    /***********  modal  *************/
+   .modal{
+        width: 34.5vw;
+        margin-left: -17.25vw;
+        padding: 3.25vw;
+   }
+   .modal header{
+       font-size: 2vw;
+       padding-bottom: 1.5vw;
+   }
+   .modal form{
+      width: 26.5vw;
+   }
+   .modal input[type="text"]{
+      font-size: 1.5vw;
+      height: 3.6vw;
+      padding: 0 0.7vw;
+      margin-top: 1.5vw;
+   }
+   .modal input[type="submit"]{
+      font-size: 1.5vw;
+      height: 3.6vw;
+      margin-top: 1.5vw;
+   }
 }

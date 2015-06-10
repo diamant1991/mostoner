@@ -5,3 +5,24 @@ $('input,textarea').focus(function(){
 $('input,textarea').blur(function(){
   $(this).attr('placeholder',$(this).data('placeholder'));
 });
+
+$( document ).ready(function() {
+
+
+	$('.click-modal').click(function(){
+    	$('.form-mask').fadeIn(400);
+    	$('.modal').fadeIn(400);
+    })
+
+    $('.form-mask').click(function(){
+  	 $('.modal,.form-mask').fadeOut(400);
+  })
+	$(document).keyup(function(d) {
+	    if (d.keyCode == 27) {
+	        $('.form-mask').fadeOut(400);
+	        $('.modal').fadeOut(400);
+	    }
+	});
+
+
+});

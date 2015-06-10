@@ -49,4 +49,16 @@ $( document ).ready(function() {
         $('.face-var span').removeClass('active');
         $(this).addClass('active');
     });
+    $('.var-fil').click(function(e) {
+        $('.var-fil').removeClass('active');
+        $(this).addClass('active');
+    });
+
+});
+$(document).mouseup(function (e) {
+    var container = $(".drop");
+    if (container.has(e.target).length === 0){
+        container.slideUp(250);
+        
+    }
 });
