@@ -218,6 +218,7 @@ a {
   border-right: 0;
   font-family: "GothamProRegular";
   font-size: 14px;
+  background-color: #f2f2f1;
 }
 .search-block button {
   -webki-border-radius: 2px;
@@ -305,7 +306,7 @@ a {
   left: 0;
   top: 0;
   z-index: 2;
-  padding: 0 4%;
+  padding: 0 20px;
   color: white;
 }
 .banner-text .title {
@@ -442,10 +443,10 @@ a {
   line-height: 1.5;
 }
 .news-list a span {
-  text-decoration: underline;
+  border-bottom: 1px solid #b1b2b5;
 }
 .news-list a:hover span {
-  text-decoration: none;
+  border-bottom: 1px solid transparent;
 }
 .news-list .news-desc {
   margin-top: 20px;
@@ -716,6 +717,7 @@ footer {
   font-family: "GothamProBold";
   font-size: 29px;
   line-height: 1.2;
+  padding-top: 16px;
 }
 .article-desc p {
   color: #7d8598;
@@ -896,7 +898,7 @@ footer {
   top: 0;
   left: 0;
   display: block;
-  width: 100%;
+  width: 97%;
   height: 79px;
 }
 .main-input {
@@ -1380,8 +1382,8 @@ footer {
   margin-bottom: 5px;
 }
 .main-block a {
-  text-decoration: underline;
   color: #19adcb;
+  border-bottom: 1px solid #a7d8e6;
 }
 .main-text {
   width: 60%;
@@ -1416,7 +1418,7 @@ footer {
   cursor: pointer;
   color: #19adcb;
   font-family: "GothamProBold";
-  text-decoration: underline;
+  border-bottom: 1px solid #a7d8e6;
   font-size: 16px;
 }
 .select a.slct-other {

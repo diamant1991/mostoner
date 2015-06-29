@@ -172,6 +172,9 @@
     padding: 1.4vw;
     padding-right: 0;
   }
+  .banner-text{
+    padding: 0 1.4vw;
+  }
   /*********  article *************/
   
   .article {
@@ -220,6 +223,7 @@
   }
   .article-desc header {
     font-size: 2.1vw;
+    padding-top: 1.15vw;
   }
   .article-desc p {
     font-size: 1.15vw;
