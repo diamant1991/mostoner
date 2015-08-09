@@ -76,8 +76,8 @@
 			</div>
 			<form class="side-form">
 				<fieldset>
-					<input type="text" placeholder="Телефон *">
-					<input type="text" placeholder="Email">
+					<input type="text" placeholder="Телефон *" class="input-telephone">
+					<input type="text" placeholder="Email" class="input-email">
 					<textarea placeholder="Вопрос"></textarea>
 				</fieldset>
 				<input type="submit" value="Отправить">
@@ -402,6 +402,28 @@
 
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="js/inputmask.js"></script>
+<script src="js/jquery.inputmask.js"></script>
+<script>
+	$(document).ready(function(){
+        $('.input-telephone').inputmask("+8 (999) 999-99-99");
+        $('.input-email').inputmask({
+            mask: "*{1,20}[.*{1,20}][.*{1,20}][.*{1,20}]@*{1,20}[.*{2,6}][.*{1,2}]",
+            greedy: false,
+            onBeforePaste: function (pastedValue, opts) {
+                pastedValue = pastedValue.toLowerCase();
+                return pastedValue.replace("mailto:", "");
+            },
+            definitions: {
+                '*': {
+                    validator: "[0-9A-Za-z!#$%&'*+/=?^_`{|}~\-]",
+                    cardinality: 1,
+                    casing: "lower"
+                }
+            }
+    });
+    });
+</script>
 <script src="js/script.js"></script>
 </body>
 </html>

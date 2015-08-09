@@ -8,6 +8,17 @@ $('input,textarea').blur(function(){
 
 $( document ).ready(function() {
 
+  $('form').bind('submit', function(event) {
+    $(this).find('[type=text]').each(function() {
+      if(!$(this).val().length) { 
+      event.preventDefault();
+        $(this).addClass('error');
+      }
+      else{
+        $(this).removeClass('error');
+      }
+    });
+  });
 
 	$('.click-modal').click(function(){
     	$('.form-mask').fadeIn(400);
@@ -23,6 +34,7 @@ $( document ).ready(function() {
 	        $('.modal').fadeOut(400);
 	    }
 	});
+
 
 
 });
